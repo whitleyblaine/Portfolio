@@ -240,10 +240,21 @@ p {
 
 @media screen and (max-width: 640px) {
 
+  .about {
+    width: 84%;
+    height: 400px;
+  }
+
   .connect {
     clear: both;
     margin-right: 0;
-    width: 100%;
+    width: 90%;
+    float: left;
+    height: 175px;
+  }
+
+  .connect h1 {
+    text-align: left;
   }
 
 
@@ -253,9 +264,15 @@ p {
     text-align: center;
   }
 
-  .about {
-    width: 100%;
+  .content {
+    width: 90%;
   }
+
+  .portfolio {
+    width: 84%;
+    height: 600px;
+  }
+
 
 
 }
