@@ -7,15 +7,19 @@ html, body {
   height: 100%;
 }
 
-/* Header */
-.header {
-  background: #ffffff;
-  border-bottom: 3px solid #cccccc;
-  height: 76px;
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
 }
 
+/* Header */
 .header-links {
-  margin-right: 215px;
+  margin-right: 150px;
+  background: #ffffff;
+  height: 76px;
+  width: 50%;
+  float: right;
 }
 
 .header-links a {
@@ -218,17 +222,40 @@ p {
 }
 
 /*Media Queries*/
-@media screen and (max-width: 980px) {}
+@media screen and (max-width: 980px) {
+  .connect {
+    clear: both;
+    margin-top: 20px;
+  }
 
-@media screen and (max-width: 768px) {}
+}
+
+@media screen and (max-width: 768px) {
+  .connect {
+    clear: both;
+    margin-top: 20px;
+  }
+
+}
 
 @media screen and (max-width: 640px) {
 
-  header {
-    position: static;
+  .connect {
+    clear: both;
+    margin-right: 0;
+    width: 100%;
   }
 
-  .nametag {
-    position: absolute;
+
+  .nametag a {
+    width: 100%;
+    margin: 0;
+    text-align: center;
   }
+
+  .about {
+    width: 100%;
+  }
+
+
 }
