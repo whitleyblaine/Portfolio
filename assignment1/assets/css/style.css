@@ -348,6 +348,10 @@ p {
     width: 84%;
     border: 1px solid #dddddd;
   }
+
+  .contact-form {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 640px) {
@@ -417,6 +421,7 @@ p {
     text-align: center;
     position: absolute;
     width: 50%;
+    max-width: 300px;
     color: white;
   }
 }
