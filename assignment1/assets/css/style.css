@@ -7,8 +7,8 @@ html, body {
   height: 100%;
 }
 
-.wrapper {
-  width: 100%;
+#wrapper {
+  width: 1200px;
   margin: 0 auto;
   height: 100%;
 }
@@ -222,57 +222,46 @@ p {
 }
 
 /*Media Queries*/
-@media screen and (max-width: 980px) {
-  .connect {
-    clear: both;
-    margin-top: 20px;
-  }
+@media screen and (max-width: 980px) {}
 
-}
 
 @media screen and (max-width: 768px) {
-  .connect {
-    clear: both;
-    margin-top: 20px;
+
+  .content {
+    position: absolute;
   }
+
+  .about, .contact, .portfolio {
+    width: 75%;
+    display: block;
+  };
+
+  .about img {
+    display: block;
+  }
+
+  .about p {
+    margin-bottom: 10px;
+  }
+
+  .connect {
+    width: 58%;
+    margin-top: 20px;
+    position: absolute;
+  }
+
+  .header-links {
+    display: block;
+  }
+
+  .nametag {
+    display: block;
+    width: 100%;
+  }
+
 
 }
 
-@media screen and (max-width: 640px) {
-
-  .about {
-    width: 84%;
-    height: 400px;
-  }
-
-  .connect {
-    clear: both;
-    margin-right: 0;
-    width: 90%;
-    float: left;
-    height: 175px;
-  }
-
-  .connect h1 {
-    text-align: left;
-  }
-
-
-  .nametag a {
-    width: 100%;
-    margin: 0;
-    text-align: center;
-  }
-
-  .content {
-    width: 90%;
-  }
-
-  .portfolio {
-    width: 84%;
-    height: 600px;
-  }
-
-
+@media screen and (max-width: 640px) {}
 
 }
