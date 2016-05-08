@@ -145,8 +145,17 @@ p {
   text-align: center;
   position: absolute;
   width: 21%;
+  color: white;
 }
 
+.port-no-table {
+  display: none;
+  background: #fff;
+  padding: 30px 20px 20px 30px;
+  width: 45%;
+  border: 1px solid #dddddd;
+  color: white;
+}
 
 /*Contact Form*/
 .contact-form {
@@ -250,13 +259,49 @@ p {
     float: none;
   }
 
+
   .header-links {
     margin-right: 20%;
   }
 
   .connect {
     width: 30%;
-    margin-right: 90px;
+    float: right;
+  }
+
+  .connect img {
+    float: left;
+  }
+
+
+  .portfolio {
+    display: none;
+  }
+
+  .port-no-table {
+    display: inline-block;
+  }
+
+  .port-no-table h1 {
+    margin: 0 10px 10px 0;
+    border-bottom: 3px solid #dddddd;
+    font-size: 2.4em;
+    padding-bottom: 10px;
+  }
+
+  .port-no-table img {
+    margin: 10px 10px 0 10px;
+    width: 90%;
+  }
+
+  .port-no-table h2 {
+    padding: 10px;
+    margin: -50px 10px 10px 10px;
+    font-size: 1.6em;
+    background: #4aaaa5;
+    text-align: center;
+    position: absolute;
+    width: 28%;
   }
 }
 
@@ -274,17 +319,42 @@ p {
   }
 
   .connect {
-    width: 63%;
+    width: 65%;
     margin-top: 30px;
     position: absolute;
+    display: block;
+  }
+
+  .connect h1 {
+    text-align: left;
+  }
+
+  .connect img {
+    float: left;
   }
 
   .header-links {
     margin-right: 10%;
   }
+
+  .port-no-table {
+    display: none;
+  }
+
+  .portfolio {
+    background: #fff;
+    padding: 30px 0 20px 30px;
+    display: inline-block;
+    width: 84%;
+    border: 1px solid #dddddd;
+  }
 }
 
 @media screen and (max-width: 640px) {
+
+  .content {
+    height: 120em;
+  }
 
   .nametag {
     display: none;
@@ -318,5 +388,35 @@ p {
     max-width: 100%;
   }
 
+  .portfolio {
+    display: none;
+  }
 
+  .port-no-table {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .port-no-table h1 {
+    margin: 0 10px 10px 0;
+    border-bottom: 3px solid #dddddd;
+    font-size: 2.4em;
+    padding-bottom: 10px;
+  }
+
+  .port-no-table img {
+    margin: 10px 10px 0 10px;
+    width: 90%;
+  }
+
+  .port-no-table h2 {
+    padding: 10px;
+    margin: -50px 10px 10px 10px;
+    font-size: 1.6em;
+    background: #4aaaa5;
+    text-align: center;
+    position: absolute;
+    width: 50%;
+    color: white;
+  }
 }
